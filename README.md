@@ -10,11 +10,11 @@ We can only retrieve some data for artificial production to feed zombies.
   - Defining and modifying contract ownership.
   - Access control to zombie ownership and the data factory.
 ## zombieFactory.sol
--Inherits access control functionalities from the Ownable contract.
--Defines the structure and characteristics of our zombies.
--Common functionalities for creating a zombie.
+- Inherits access control functionalities from the Ownable contract.
+- Defines the structure and characteristics of our zombies.
+- Common functionalities for creating a zombie.
 ## zombieFeeding.sol
--Inherits from the ZombieFactory contract.
--Functionalities for creating special zombies
+- Inherits from the ZombieFactory contract.
+- Functionalities for creating special zombies
 ## zombieHelper.sol
--Helpers to facilitate some functionalities.
+- Helpers to facilitate some functionalities.
