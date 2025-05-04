@@ -1,6 +1,7 @@
 # CryptoZombies
 Building a zombie factory and production while learning smart contract development.
 In our spooky lab, we cast powerful spells to make contracts with the underworld to establish a smart connection.
+
 These spooky spells allow us to summon zombies and multiply them by feeding them some delicious pure souls named cryptoCats.
 CryptoKats are the main source of zombie growth. They are found on a realm called blockchain. 
 We can only retrieve some data for artificial production to feed zombies.
