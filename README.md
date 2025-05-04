@@ -5,6 +5,7 @@ In our spooky lab, we cast powerful spells to make contracts with the underworld
 These spooky spells allow us to summon zombies and multiply them by feeding them some delicious pure souls named cryptoCats.
 CryptoKats are the main source of zombie growth. They are found on a realm called blockchain. 
 We can only retrieve some data for artificial production to feed zombies.
+![Cryptozombies](https://github.com/user-attachments/assets/94ccbb43-eff5-4219-9a6e-e8ed0e6c146e)
 
 ## ownable.sol
 - Defines authorization control:
