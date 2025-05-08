@@ -4,7 +4,9 @@ Chapter1: Token on Ethereum
 --ERC20 token: Tokens that act like currencies 
 --ERC721 tokens are not interchangeable since each one is assumed to be unique, and are not divisible. Each one has a unique ID. So these are a perfect fit for tradeable tokens. 
 
-Chapter 2
+Chapter 2: Multiple Inheritance
+-import interface or contract files.
+-contract SatoshiNakamoto is NickSzabo, HalFinney{}
 
 Chapter 3
 Chapter 4
