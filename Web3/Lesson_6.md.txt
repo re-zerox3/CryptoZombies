@@ -1,0 +1,13 @@
+Lesson_6:
+- chapter_2:
+-- Web3 Providers:
+--- Infura is a service that maintains a set of Ethereum node with a caching layer for fast reads.
+--- Metamask is browser extension that lets users securely manage their Ethereum account and private keys.
+
+
+- chapter_3: Talking to Contracts:
+
+Chapter4 : Calling Contract Functions:
+Call: used for view and pure func and only runs on local nodes.
+Send: will create transaction and change data on the blockchain. it uses gas.
+
