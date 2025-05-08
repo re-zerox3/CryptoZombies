@@ -10,14 +10,6 @@ Chapter 2: Multiple Inheritance
 
 Chapter 5: ERC721: Transfer Logic
 --ERC721 Implementation by transferring ownership from one person to another
-Chapter 6
-Chapter 7
-Chapter 8
-Chapter 9
-Chapter 10
-Chapter 11
-Chapter 12
-Chapter 13
-Chapter 14
-Chapter 15
+Chapter 9: Preventing Overflows
+
 
