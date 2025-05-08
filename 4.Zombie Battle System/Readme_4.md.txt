@@ -8,9 +8,8 @@ Chapter 2: Multiple Inheritance
 -import interface or contract files.
 -contract SatoshiNakamoto is NickSzabo, HalFinney{}
 
-Chapter 3
-Chapter 4
-Chapter 5
+Chapter 5: ERC721: Transfer Logic
+--ERC721 Implementation by transferring ownership from one person to another
 Chapter 6
 Chapter 7
 Chapter 8
