@@ -1,4 +1,5 @@
-# The Phantom of Web3 zombie
+# [The Phantom of Web3 zombie](https://share.cryptozombies.io/en/lesson/6/share/The_Phantom_of_Web3?id=Y3p8NjUwNDMx)
+
 
 Learning basic Solidity and Web3.js for bug bounty hunting through writing and interacting with smart contracts.
 Smart contracts implements access-control functionalities and ownership when creating and interacting with tokenizable zombies.
@@ -52,7 +53,6 @@ We can only retrieve some data for artificial production to feed zombies.
 - Handles ether to wei exchange
 - Renders zombies of user owner.
 
-[My CryptoZombies](https://share.cryptozombies.io/en/lesson/6/share/The_Phantom_of_Web3?id=Y3p8NjUwNDMx)
 
 
 
