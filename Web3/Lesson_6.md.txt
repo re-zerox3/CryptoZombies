@@ -10,4 +10,4 @@ Lesson_6:
 Chapter4 : Calling Contract Functions:
 Call: used for view and pure func and only runs on local nodes.
 Send: will create transaction and change data on the blockchain. it uses gas.
-
+Chapter 7: Adding functions to generate zombie in two ways.
