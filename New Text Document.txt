@@ -1,0 +1,17 @@
+
+
+const block = await web3.eth.getBlock("latest")
+const blockNumber = block.number;
+const prevBlock = await web3.eth.getBlock(blockNumber - 1);
+const blockValue = web3.utils.toBN(prevBlock.hash);
+const FACTOR = web3.utils.toBN("57896044618658097711785492504343953926634992332820282019728792003956564819968");
+const coinFlip = blockValue.div(FACTOR);
+const side = coinFlip.eq(web3.utils.toBN(1));  // true or false
+side
+
+var tmp = await contract.flip(side)
+const consecutiveWins = await contract.consecutiveWins()
+consecutiveWins.toString()
+
+
+
